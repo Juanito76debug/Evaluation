@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "jsdoc": "jsdoc -c jsdoc.json",
+    "lint": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,7 +18,8 @@
     "express-session": "^1.17.2"
   },
   "devDependencies": {
-    "eslint": "^8.7.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
     "jest": "^27.4.7",
     "jsdoc": "^4.0.2",
     "nodemon": "^3.1.0"
