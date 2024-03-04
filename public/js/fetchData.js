@@ -75,3 +75,11 @@ window.addEventListener('DOMContentLoaded',()=>{
     pokemonAbility()
   })()
 })
+
+function fetchData() {
+  for (let i = 1; i < 20; i++) {
+    alert('Coucou ' + i + ' fois !');
+}
+
+// Plus de code...
+}
